@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Ash & Okra Society // Culinary Archive & Supper Club</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            ash: '#121214',
+            'ash-light': '#1A1A1E',
+            'ash-border': '#282830',
+            ochre: '#D48B38',
+            'ochre-light': '#E8A55B',
+            moss: '#84FF00',
+            cream: '#F4EFEB'
+          },
+          fontFamily: {
+            montserrat: ['Montserrat', 'sans-serif'],
+          }
+        }
+      }
+    }
+  </script>
+  <style>
+    body {
+      background-color: #121214;
+      color: #F4EFEB;
+      font-family: 'Montserrat', sans-serif;
+      overflow-x: hidden;
+    }
+  </style>
+</head>
+<body class="selection:bg-moss selection:text-ash antialiased">
+
+  <!-- TOP TICKER BAR -->
+  <header class="border-b border-ash-border bg-ash/90 sticky top-0 z-50 backdrop-blur-md">
+    <div class="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
+      <div class="flex items-center gap-3">
+        <span class="w-2.5 h-2.5 rounded-full bg-moss animate-pulse"></span>
+        <span class="text-xs tracking-[0.25em] font-semibold text-ochre uppercase">Season VII // Harvest & Hearth</span>
+      </div>
+      <nav class="hidden md:flex items-center gap-8 text-xs tracking-[0.2em] uppercase font-medium text-cream/70">
+        <a href="#lineage" class="hover:text-moss transition-colors">Lineage</a>
+        <a href="#courses" class="hover:text-moss transition-colors">Tasting Table</a>
+        <a href="#reserve" class="hover:text-moss transition-colors">Seat Request</a>
+      </nav>
+      <a href="#reserve" class="px-5 py-2.5 text-xs font-bold uppercase tracking-widest bg-ochre text-ash hover:bg-moss hover:text-ash transition-all duration-300">
+        Reserve Table
+      </a>
+    </div>
+  </header>
+
+  <!-- HERO SECTION -->
+  <section class="relative min-h-[90vh] flex flex-col justify-between border-b border-ash-border px-6 pt-16 pb-12 max-w-7xl mx-auto">
+    <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-start">
+      
+      <!-- Eyebrow & Main Statement -->
+      <div class="lg:col-span-8 space-y-6">
+        <div class="inline-flex items-center gap-2 px-3 py-1 bg-ash-light border border-ash-border text-[11px] uppercase tracking-[0.2em] text-ochre">
+          <span>Lowcountry Culinary Sanctuary</span>
+          <span class="text-ash-border">•</span>
+          <span class="text-moss">Fourteen Seats Only</span>
+        </div>
+        
+        <h1 class="text-5xl sm:text-7xl lg:text-8xl font-black uppercase tracking-tight leading-[0.92] text-cream">
+          The Ash <br>
+          <span class="text-ochre font-extrabold">& Okra</span> <br>
+          <span class="text-transparent" style="-webkit-text-stroke: 1.5px #F4EFEB;">Society.</span>
+        </h1>
+        
+        <p class="max-w-xl text-base sm:text-lg text-cream/70 font-light leading-relaxed pt-2">
+          An asymmetric tasting temple dedicated to Gullah-Geechee preservation, heirloom field peas, hearth charcoal, and heritage grains. Unapologetic Southern luxury.
+        </p>
+      </div>
+
+      <!-- Asymmetric Editorial Sidecard -->
+      <div class="lg:col-span-4 bg-ash-light border border-ash-border p-8 relative space-y-6 lg:mt-8">
+        <div class="absolute -top-3 -right-3 w-6 h-6 border-t-2 border-r-2 border-moss"></div>
+        <div class="text-[10px] tracking-[0.3em] uppercase text-ochre font-bold">Provenance // Charleston Archive</div>
+        <div class="text-3xl font-black text-cream">1,200°</div>
+        <p class="text-xs leading-relaxed text-cream/60">
+          White oak and pecan wood embers. Zero induction cooking. Every course carries smoke, salt spray, and sacred remembrance.
+        </p>
+        <div class="pt-4 border-t border-ash-border flex justify-between items-center text-xs">
+          <span class="text-cream/40 uppercase tracking-widest text-[10px]">Current Status</span>
+          <span class="text-moss font-bold uppercase tracking-wider flex items-center gap-2">
+            <span class="w-1.5 h-1.5 rounded-full bg-moss"></span> Open for Booking
+          </span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Ticker / Key Data Points -->
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-6 pt-16 border-t border-ash-border mt-16 text-xs uppercase tracking-widest">
+      <div>
+        <div class="text-cream/40 text-[10px]">Tasting Flight</div>
+        <div class="font-bold text-cream mt-1 text-sm">Nine Courses</div>
+      </div>
+      <div>
+        <div class="text-cream/40 text-[10px]">Seat Capacity</div>
+        <div class="font-bold text-cream mt-1 text-sm">14 Guests / Evening</div>
+      </div>
+      <div>
+        <div class="text-cream/40 text-[10px]">Pairing Program</div>
+        <div class="font-bold text-moss mt-1 text-sm">Carolina Rice Wines</div>
+      </div>
+      <div>
+        <div class="text-cream/40 text-[10px]">Dress Protocol</div>
+        <div class="font-bold text-ochre mt-1 text-sm">Formal Lowcountry</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ASYMMETRIC TASTING MENU ARCHIVE -->
+  <section id="courses" class="border-b border-ash-border py-24 px-6 max-w-7xl mx-auto">
+    <div class="flex flex-col md:flex-row justify-between items-start md:items-end mb-16 gap-6">
+      <div>
+        <span class="text-xs uppercase tracking-[0.3em] font-bold text-moss">01 // The Curated Hearth</span>
+        <h2 class="text-3xl sm:text-5xl font-black uppercase text-cream mt-2">Selected Transmissions</h2>
+      </div>
+      <p class="text-xs uppercase tracking-[0.2em] text-cream/50 max-w-xs">
+        Menus rotate daily with the lowcountry lunar calendar and tidal harvest reports.
+      </p>
+    </div>
+
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+      
+      <!-- Dish 01 -->
+      <div class="bg-ash-light border border-ash-border p-8 flex flex-col justify-between hover:border-ochre transition-all duration-300 group">
+        <div>
+          <span class="text-xs font-mono text-ochre">COURSE 02</span>
+          <h3 class="text-2xl font-bold uppercase text-cream mt-3 group-hover:text-ochre transition-colors">Sea Island Okra in Shungite Ash</h3>
+          <p class="text-xs text-cream/60 mt-4 leading-relaxed font-light">
+            Whole pod blistered over hickory, dipped in cold-pressed benne seed emulsification and sea salt crystals harvested off Edisto Island.
+          </p>
+        </div>
+        <div class="pt-8 mt-8 border-t border-ash-border/50 text-[10px] uppercase tracking-widest text-moss font-semibold">
+          Pairing: Lowcountry Scuppernong Pet-Nat
+        </div>
+      </div>
+
+      <!-- Dish 02 (Featured) -->
+      <div class="bg-ash-light border-2 border-moss p-8 flex flex-col justify-between relative">
+        <div class="absolute -top-3 right-6 bg-moss text-ash text-[10px] font-black uppercase tracking-widest px-3 py-1">
+          Signature Plate
+        </div>
+        <div>
+          <span class="text-xs font-mono text-moss">COURSE 05</span>
+          <h3 class="text-2xl font-bold uppercase text-cream mt-3">Carolina Gold Crisped Rice & Smoked Marrow</h3>
+          <p class="text-xs text-cream/60 mt-4 leading-relaxed font-light">
+            Heirloom grain toasted in cast-iron drippings, topped with fermented field pea butter, charred shallots, and cracked green peppercorn.
+          </p>
+        </div>
+        <div class="pt-8 mt-8 border-t border-ash-border/50 text-[10px] uppercase tracking-widest text-ochre font-semibold">
+          Pairing: Aged Red Clay Oolong Tea
+        </div>
+      </div>
+
+      <!-- Dish 03 -->
+      <div class="bg-ash-light border border-ash-border p-8 flex flex-col justify-between hover:border-ochre transition-all duration-300 group">
+        <div>
+          <span class="text-xs font-mono text-ochre">COURSE 08</span>
+          <h3 class="text-2xl font-bold uppercase text-cream mt-3 group-hover:text-ochre transition-colors">Cane Syrup Tart & Charred Fig</h3>
+          <p class="text-xs text-cream/60 mt-4 leading-relaxed font-light">
+            Raw sorghum reduction baked in lard crust, accompanied by wood-roasted purple fig and smoked buttermilk custard cream.
+          </p>
+        </div>
+        <div class="pt-8 mt-8 border-t border-ash-border/50 text-[10px] uppercase tracking-widest text-moss font-semibold">
+          Pairing: High-Proof Rye Cask Infusion
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- RESERVATION BOOKING MODULE -->
+  <section id="reserve" class="py-24 px-6 max-w-7xl mx-auto">
+    <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 bg-ash-light border border-ash-border p-8 sm:p-16 relative">
+      <div class="lg:col-span-5 space-y-6">
+        <span class="text-xs uppercase tracking-[0.3em] font-bold text-moss">02 // The Communion</span>
+        <h2 class="text-3xl sm:text-4xl font-black uppercase text-cream leading-tight">
+          Request A Table at the Hearth.
+        </h2>
+        <p class="text-xs text-cream/70 leading-relaxed font-light">
+          Due to our fourteen-guest intimacy limit, bookings are released 30 days in advance via curated invitation. Every seating is an uninterrupted four-hour ceremonial experience.
+        </p>
+
+        <div class="pt-4 space-y-3 text-xs uppercase tracking-widest text-cream/60">
+          <div class="flex items-center gap-3">
+            <span class="text-ochre font-bold">Location:</span>
+            <span>Undisclosed Private Sanctuary // Charleston, SC</span>
+          </div>
+          <div class="flex items-center gap-3">
+            <span class="text-ochre font-bold">Standard Seat:</span>
+            <span>$285 Per Guest (Includes Beverage Integration)</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Booking Form -->
+      <div class="lg:col-span-7 bg-ash border border-ash-border p-8 sm:p-10 space-y-6">
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+          <div class="space-y-2">
+            <label class="text-[10px] uppercase tracking-widest text-cream/50 font-bold">Full Legal Name</label>
+            <input type="text" placeholder="e.g. Dr. Althea Thorne" class="w-full bg-ash-light border border-ash-border px-4 py-3 text-xs text-cream focus:border-moss focus:outline-none transition-colors">
+          </div>
+          <div class="space-y-2">
+            <label class="text-[10px] uppercase tracking-widest text-cream/50 font-bold">Direct Email Address</label>
+            <input type="email" placeholder="client@thehaus.co" class="w-full bg-ash-light border border-ash-border px-4 py-3 text-xs text-cream focus:border-moss focus:outline-none transition-colors">
+          </div>
+        </div>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+          <div class="space-y-2">
+            <label class="text-[10px] uppercase tracking-widest text-cream/50 font-bold">Seating Window</label>
+            <select class="w-full bg-ash-light border border-ash-border px-4 py-3 text-xs text-cream focus:border-moss focus:outline-none transition-colors">
+              <option>Thursday Evening // 7:00 PM</option>
+              <option>Friday Evening // 7:00 PM</option>
+              <option>Saturday Evening // 6:30 PM</option>
+              <option>Sunday Sanctuary Lunch // 1:00 PM</option>
+            </select>
+          </div>
+          <div class="space-y-2">
+            <label class="text-[10px] uppercase tracking-widest text-cream/50 font-bold">Party Size</label>
+            <select class="w-full bg-ash-light border border-ash-border px-4 py-3 text-xs text-cream focus:border-moss focus:outline-none transition-colors">
+              <option>2 Seats (Standard Intimate)</option>
+              <option>4 Seats (Quad Table)</option>
+              <option>14 Seats (Full Hearth Buyout)</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="space-y-2">
+          <label class="text-[10px] uppercase tracking-widest text-cream/50 font-bold">Dietary Lineage & Allergy Notes</label>
+          <textarea rows="3" placeholder="Specify any strict plant-based or seafood sensitivities for the chef..." class="w-full bg-ash-light border border-ash-border px-4 py-3 text-xs text-cream focus:border-moss focus:outline-none transition-colors resize-none"></textarea>
+        </div>
+
+        <button type="button" class="w-full py-4 text-xs font-black uppercase tracking-[0.25em] bg-moss text-ash hover:bg-ochre hover:text-ash transition-all duration-300">
+          Transmit Reservation Request
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="border-t border-ash-border py-12 px-6 max-w-7xl mx-auto flex flex-col sm:flex-row justify-between items-center gap-6 text-[10px] uppercase tracking-widest text-cream/40">
+    <div class="flex items-center gap-2">
+      <span class="font-bold text-cream">The Ash & Okra Society</span>
+      <span>•</span>
+      <span>Preserved by theHAUS. Vision Architecture</span>
+    </div>
+    <div>All Rights Reserved © 2026</div>
+  </footer>
+
+</body>
+</html>
